@@ -1,18 +1,49 @@
+<!DOCTYPE html>
+<style>
+  table,
+  th,
+  td{
+      border: 1px solid red;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th{
+    height: 50px;
+  }
+th,
+td{
+    padding: 15px;
+    text-align: left;
+}
+
+</style>
 <html>
     <head>
       <meta charset="utf-8">
-      <title> Belajar Table</title>
+      <title> Dasar HTML></title>
+    </head>
       <Body>
-          <table>
+          <table border="2">
               <tr>
-                  <th>NO</th>
-                    <th>Nama</th>>
+                    <th> No</th>
+                    <th>Nama </th>
                     <th>Alamat </th>
               </tr>
               <tr>
-                  <!-- isi Baris Table-->
+                <td>1</td>
+                <td>Roy</td>
+                <td rowspan="3">Bandung</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Si Boy</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Roni</td>
               </tr>
           </table>
       </Body>
-    </head>
 </html>
